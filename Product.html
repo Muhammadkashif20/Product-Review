@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+    <h1 align="center" style="color: rgb(5, 5, 106);">Product Review</h1>
+    <p align="center">Thanks for choosing to review our products</p>
+    <blockquote>
+        <p>
+            Name <sup style="color: rgb(240, 53, 53);">*</sup>
+        </p>
+        <input type="text" placeholder="How would you like us to display your name?" required size="60">
+    </blockquote>
+    <br>
+    <blockquote>
+        <p>
+            Email <sup style="color: rgb(240, 53, 53);">*</sup>
+        </p>
+        <input type="email" placeholder="We won't display this." required size="60">
+    </blockquote>
+    <blockquote>
+        <p>
+            Which product would you like to review? <sup style="color: rgb(240, 53, 53);">*</sup>
+        </p>
+        <select required>
+            <option value="select" disabled selected>Select</option>
+            <option value="Fruit">Fruit</option>
+            <option value="Vegetable">Vegetable</option>
+            <option value="Grocery">Grocery</option>
+            <option value="Mall">Mall</option>
+            <option value="Currency">Currency</option>
+        </select>
+    </blockquote>
+    <blockquote>
+        <p>
+            Your review <sup style="color: rgb(240, 53, 53);">*</sup>
+
+        </p>
+        <textarea cols="56" rows="5" required></textarea>
+    </blockquote>
+    <div align="center">
+        <input type="submit">
+    </div>
+</form>
+</body>
+
+</html>
